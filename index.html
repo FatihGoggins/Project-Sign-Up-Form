@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up Form</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="image">
+			<div class="banner">
+				<img src="./images/logo.png" alt="" id="logo" />
+				<p class="logo-text">ODIN</p>
+			</div>
+			<p class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+		</div>
+		<div class="form">
+			<p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span>now</span> to get started.</p>
+			<p>You <span>know</span> you want to.</p>
+			<form action="#">
+				<div class="form-input">
+					<p>Let's do this!</p>
+					<div class="personal-info">
+						<div class="input">
+							<label for="first-name">FIRST NAME</label>
+							<input type="text" name="first-name" id="first-name" required />
+						</div>
+						<div class="input">
+							<label for="last-name">LAST NAME</label>
+							<input type="text" name="last-name" id="last-name" required />
+						</div>
+					</div>
+					<div class="contact-info">
+						<div class="input">
+							<label for="mail">EMAIL</label>
+							<input type="email" name="mail" id="mail" required />
+						</div>
+						<div class="input">
+							<label for="phone-number">PHONE NUMBER</label>
+							<input type="tel" name="phone-number" id="phone-number" required />
+						</div>
+					</div>
+					<div class="password">
+						<div class="input">
+							<label for="password">PASSWORD</label>
+							<input type="password" name="password" id="password" required />
+						</div>
+						<div class="input">
+							<label for="confirm-passord">CONFIRM PASSWORD</label>
+							<input type="password" name="confirm-password" id="confirm-password" required />
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<button>Create Account</button>
+				</div>
+			</form>
+			<p>Already have an account? <a id="login" href="">Log in</a></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "NorseBold";
+	src: url(./fonts/Norse-Bold.otf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--left-margin: 6vw;
+}
+
+:root,
+body,
+div.image {
+	height: 100%;
+}
+
+body,
+div.image,
+div.form,
+.banner {
+	display: flex;
+}
+
+div.image {
+	background-image: url("./images/background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-width: 30%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+div.form {
+	min-width: 70%;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.4em;
+	background-color: rgb(249, 249, 249);
+	box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
+
+.banner {
+	margin-top: 20vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 20%;
+	font-size: 15vh;
+	color: white;
+}
+
+#logo {
+	height: 90%;
+}
+
+p.credit {
+	font-size: 2vh;
+	color: white;
+	margin: 0 0 1vh;
+}
+
+a {
+	color: white;
+}
+
+span {
+	font-style: italic;
+}
+
+p {
+	margin: 2vh var(--left-margin);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align: justify;
+}
+
+p.logo-text {
+	margin: 0;
+	font-family: "NorseBold";
+}
+
+form {
+	background-color: white;
+	margin-bottom: 3vh;
+}
+
+input,
+label {
+	font-size: 0.7em;
+	width: 180%;
+	margin: 1.5vh 0 0 0;
+}
+
+div.button {
+	background-color: rgb(249, 249, 249);
+}
+
+div.input {
+	display: flex;
+	flex-direction: column;
+}
+
+.personal-info,
+.contact-info,
+.password {
+	display: flex;
+	gap: 25%;
+	margin-left: var(--left-margin);
+}
+
+button {
+	width: 200px;
+	font-size: 1em;
+	background-color: #596d48;
+	line-height: 45px;
+	border-radius: 1vh;
+	margin: 3vh var(--left-margin) 0;
+}
+
+#login {
+	color: #596d48;
+}
+
+.form-input {
+	margin-bottom: 3vh;
+}
+
+input:focus {
+	box-shadow: 0 10px 20px -2px rgb(16, 168, 179);
+}
+
+input {
+	border-color: #e5e7eb;
+	line-height: 1.5em;
+}
